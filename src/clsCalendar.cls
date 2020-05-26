@@ -625,7 +625,7 @@ Private Sub m_switchMode_Click()
             m_mode = vbModeIsMonth
     End Select
     
-    Call Class_Initialize
+    Call ResetIndex
 End Sub
 
 Private Sub m_leftSlider_Click()
@@ -665,7 +665,7 @@ Private Sub m_leftSlider_Click()
             Call CreateYearsWidgets
     End Select
 
-    Call Class_Initialize
+    Call ResetIndex
 End Sub
 
 Private Sub m_rightSlider_Click()
@@ -705,7 +705,7 @@ Private Sub m_rightSlider_Click()
             Call CreateYearsWidgets
     End Select
 
-    Call Class_Initialize
+    Call ResetIndex
 End Sub
 
 Private Sub m_leftSlider_MouseMove(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
