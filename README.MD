@@ -23,7 +23,7 @@ Calendar-VBA includes a few options for customizing starting interface if needed
 - __FirstDayOfTheWeek__ (Default = `vbUseSystemDayOfWeek`) Use this option to reassign the first day of the week.
 
 ## Installation
-1. Download the [latest release](https://github.com/VBA-tools/VBA-JSON/releases)
+1. Download the [latest release](https://github.com/CDevZero/Calendar-VBA/releases)
 2. Import `clsCalendar.cls`, `clsWidget.cls` and `clsEventsForWidget.cls` into your project (Open VBA Editor, `Alt + F11`; File > Import File)
 3. Add `Dictionary` reference/class
    - For Windows-only, include a reference to "Microsoft Forms 2.0 Object Library"
